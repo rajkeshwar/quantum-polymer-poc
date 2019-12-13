@@ -2,7 +2,10 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: './src/quantum-polymer-poc-app/quantum-polymer-poc-app.js',
+  entry: [
+    '@webcomponents/webcomponentsjs/webcomponents-loader.js',
+    './src/quantum-polymer-poc-app/quantum-polymer-poc-app.js'
+  ],
   output: {
     // publicPath: path.resolve(__dirname, 'assets'),
     path: path.resolve(__dirname, 'build/default'),
