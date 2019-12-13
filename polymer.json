@@ -1,0 +1,12 @@
+{
+  "npm": true,
+  "extraDependencies": [
+    "manifest.json",
+    "src/employee-data.json"
+  ],
+  "lint": {
+    "rules": [
+      "polymer-3"
+    ]
+  }
+}

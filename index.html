@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>quantum-polymer-poc</title>
+    <meta name="description" content="A sample app with polymer">
+
+    <!-- See https://goo.gl/OOhYW5 -->
+    <link rel="manifest" href="/manifest.json">
+
+    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <script type="module" src="/src/quantum-polymer-poc-app/quantum-polymer-poc-app.js" crossorigin></script>
+
+    <style>
+      body {
+        background: #eee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: var(--lumo-body-text-color);
+        font-size: var(--lumo-font-size-m);
+        font-family: var(--lumo-font-family);
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .container {
+        width: 80%;
+        background: #fff;
+        padding: 1rem;
+        box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+        border-radius: .25rem;
+      }
+      
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <quantum-polymer-poc-app></quantum-polymer-poc-app>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "quantum-polymer-poc",
+  "short_name": "quantum-polymer-poc",
+  "description": "A sample app with polymer",
+  "start_url": "/",
+  "display": "standalone"
+}
